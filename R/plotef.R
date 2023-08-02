@@ -4,6 +4,7 @@
 #' @param mptres a list from \code{staticmpt} function
 #' @details This function provides the efficient frontier (blue line) using the result from \code{staticmpt} function. An array of inefficient weights are presented with red line. The observed returns and standard deviations are black dots.
 #' @return A plot of the efficient frontier
+#' @importFrom graphics grid legend lines points
 #' @export
 #' @examples
 #' ## No change likely scenario of CCI in Figure 2, Ando and Mallory (2012)
