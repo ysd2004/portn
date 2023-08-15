@@ -110,7 +110,7 @@ The author is grateful for financial support through the “Sustainable Bioenerg
 
 Below are the development history of R-package *portn*.
 
-* XX-XX-2023: The first relese of *portn* v.1.0.0 on R-Repository.
+* 08-14-2023: The first relese of *portn* v.1.0.0 on R-Repository.
 
 * 08-02-2023: V. 1.0.0 was embeded in GitHub.
 
