@@ -32,7 +32,7 @@
 #' mus <- seq(min(rs),max(rs),length.out=100)
 #' cci <- staticmpt(mus,rs,vmat)
 #' @seealso \code{\link{plotef}}
-#' @references Ando, A. W. and M. L. Mallory. (2012) Optimal Portfolio Design to Reduce Climate-related Conservation Uncertainty in the Prairie Pothole Region. Proceedings of the National Academy of Sciences (PNAS). 109 (17) pp. 6484-6489.
+#' @references Ando, A. W. and M. L. Mallory. (2012) "Optimal Portfolio Design to Reduce Climate-related Conservation Uncertainty in the Prairie Pothole Region." Proceedings of the National Academy of Sciences (PNAS). 109 (17) pp. 6484-6489.
 staticmpt <- function(mus,rbar,vmat){
   nn <- length(rbar)
 
@@ -43,7 +43,7 @@ staticmpt <- function(mus,rbar,vmat){
 
   resdata <- vector()
   for (i in 1:length(mus)){
-    print(paste0('Processing ',i, ' -th optimization'))
+    message('Processing ',i, ' -th optimization')
     mu <- mus[i]
 
     gx <- function(w){
