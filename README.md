@@ -1,6 +1,6 @@
 # *portn*: Portfolio Analysis for Nature
 
-![CRAN/METACRAN](https://img.shields.io/cran/v/acdcR?color=blue) ![](http://cranlogs.r-pkg.org/badges/grand-total/acdcR?color=blue) 
+![CRAN/METACRAN](https://img.shields.io/cran/v/portn?color=blue) ![](http://cranlogs.r-pkg.org/badges/grand-total/portn?color=blue) 
 
 *This repository is to develop and distribute a testing version of R-package _portn_. The stable latest version is directly available from R-CRAN.*
 *Data and code are subject to change*
